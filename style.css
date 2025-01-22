@@ -29,11 +29,13 @@ body{
 }
 
 .wallet{
+    display: flex;
     justify-content: space-between;
 }
 
 .wallet i{
     color: yellow;
+    font-size: 24px;
 }
 
 .wallet h4{
@@ -42,25 +44,27 @@ body{
 }
 
 .wallet button{
-    background-color: lightgrey;
+    background-color:chartreuse;
     border-radius: 100px;
     border: none;
-    height: 50px;
-    width: 15%;
     cursor: pointer;
     font-size: larger;
     font-weight: bolder;
+    padding: 10px 20px;
 }
 
 .card{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 16px;
     margin: 16px;
+    width: 100%;
     background-color: #fff;
 }
-
-.cen{
-
+.card img{
+    width: 100%;
+    border-radius: 10px;
 }
+
